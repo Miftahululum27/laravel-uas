@@ -16,6 +16,8 @@
             rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="tailwind.config.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
     </head>
 
     <body class="bg-black">
@@ -41,7 +43,8 @@
                 <div id="right-side" class="flex items-center gap-x-[40px]">
                     <button><img src="logo/bg-makan.png" alt=""></button>
                     <button class="text-white">
-                        <h6>Login</h6>
+                        <a href="/login" class="nav-link"><i class="bi bi-box-arrow-in-left"></i>
+                            Login</a>
                     </button>
                     <button>
                         <img src="logo/bg org.png" alt="">
